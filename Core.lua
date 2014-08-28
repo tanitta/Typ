@@ -3,6 +3,7 @@ namespace "trit"{
 		class "Core"{
 			metamethod"_init"
 			:body(function(self)
+				self.buffer = {}
 			end);
 
 			metamethod"__call"
